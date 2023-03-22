@@ -3,13 +3,13 @@
 
 - To view what's written in a file.
 
-$ cat <filename>
+$ cat [filename]
 
 ![image](https://user-images.githubusercontent.com/117350787/226912780-a7946550-9fe6-4bcf-8fda-312b14d31642.png)
 
 - To change the access permissions of files.
   
-$ chmod <mention_permissions> <filename>
+$ chmod [mention_permissions] [filename]
 
 ![image](https://user-images.githubusercontent.com/117350787/226914142-f795f130-f325-45d1-bdcb-21535ab550db.png)
 
@@ -21,40 +21,40 @@ $ history
 
 - To remove a directory/ Folder.
 
-$ rmdir <foldername>
+$ rmdir [filename]
 
-$ rm -r <foldername>
+$ rm -r [filename]
   
 ![image](https://user-images.githubusercontent.com/117350787/226915311-bfbd1c87-d7a1-4e7a-b062-0cfded240616.png)
 
 - To create a fruits.txt file and to view the content.
 
-$ touch <filename>
+$ touch [filename]
 
-$ cat <filename>
+$ cat [filename]
   
 ![image](https://user-images.githubusercontent.com/117350787/226916059-c33a5181-681c-4880-9033-044baa168178.png)
 
 - Add content in fruits.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
 
-$ vim <filename>
+$ vim [filename]
   
-$ vi <filename>
+$ vi [filename]
   
-$ nano <filename>
+$ nano [filename]
   
 ![image](https://user-images.githubusercontent.com/117350787/226917915-c91ea3f3-6734-4c91-a2cd-095d3b785259.png)
 ![image](https://user-images.githubusercontent.com/117350787/226918812-49de5904-0f73-4483-9205-51fcb17d2911.png)
 
 - To Show only top three fruits from the file.
   
-$ head -3 <filename>
+$ head -3 [filename]
   
 ![image](https://user-images.githubusercontent.com/117350787/226919026-3e87e606-c250-4478-b1ad-70ce45b3eb33.png)
 
 - To Show only bottom three fruits from the file.
 
-$ tail -3 <filename>
+$ tail -3 [filename]
   
 ![image](https://user-images.githubusercontent.com/117350787/226919298-93be2514-874a-4454-8646-48d8286b136b.png)
 
