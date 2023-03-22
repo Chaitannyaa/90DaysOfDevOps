@@ -11,24 +11,4 @@ Let's come together to grow and achieve new heights in DevOps!
 - Check out what others are Learning and help/learn from them.
 - Showcase your learnings on LinkedIn
 
-
-These are our community Links.
-
-- Telegram Channel: https://t.me/trainwithshubham
-- Discord Channel: https://discord.gg/hs3Pmc5F
-- WhatsApp Group: https://chat.whatsapp.com/FvRlAAZVxUhCUSZ0Y1s7KY
-- YouTube Channel: https://www.youtube.com/@TrainWithShubham
-- Website: https://www.trainwithshubham.com/
-- LinkedIn: https://www.linkedin.com/in/shubhamlondhe1996/
-
-## Events
-
-YouTube Live Announcement:
-https://youtu.be/rO5Rllir-LM
-
-YouTube Playlist for DevOps:
-https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u
-
-DevOps Course:
-https://bit.ly/devops-batch-3
-
+Happy Learning !
