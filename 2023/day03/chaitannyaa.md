@@ -2,7 +2,7 @@
 # Task: What is the linux command to
 
 - To view what's written in a file.
-  >> cat <filename>
+  $ cat <filename>
 
 ![image](https://user-images.githubusercontent.com/117350787/226912780-a7946550-9fe6-4bcf-8fda-312b14d31642.png)
 
@@ -17,7 +17,8 @@
 ![image](https://user-images.githubusercontent.com/117350787/226914552-56fd16ed-77c9-447c-af9e-e15813b51d7b.png)
 
 - To remove a directory/ Folder.
-  >> rmdir <foldername>         or          >> rm -r <foldername>
+  >> rmdir <foldername>
+  >> rm -r <foldername>
   
 ![image](https://user-images.githubusercontent.com/117350787/226915311-bfbd1c87-d7a1-4e7a-b062-0cfded240616.png)
 
