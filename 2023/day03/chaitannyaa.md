@@ -28,7 +28,11 @@
 ![image](https://user-images.githubusercontent.com/117350787/226916059-c33a5181-681c-4880-9033-044baa168178.png)
 
 - Add content in fruits.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
-  >> vim <filename>     or      vi <filename>      or      nano <filename>
+  >> vim <filename>     
+  or
+  >> vi <filename>      
+  or      
+  >> nano <filename>
   
 ![image](https://user-images.githubusercontent.com/117350787/226917915-c91ea3f3-6734-4c91-a2cd-095d3b785259.png)
 ![image](https://user-images.githubusercontent.com/117350787/226918812-49de5904-0f73-4483-9205-51fcb17d2911.png)
