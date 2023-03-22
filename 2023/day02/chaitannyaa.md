@@ -1,4 +1,4 @@
-Task: What is the linux command to
+# Task: What is the linux command to
 
 - Check your present working directory.
 
@@ -12,7 +12,7 @@ Task: What is the linux command to
 
 ![image](https://user-images.githubusercontent.com/117350787/226910720-7985738b-61ae-401f-b29d-860e82cde294.png)
 
-
+# day2 task completed
 
 
 
