@@ -12,7 +12,7 @@
 
 ![image](https://user-images.githubusercontent.com/117350787/226910720-7985738b-61ae-401f-b29d-860e82cde294.png)
 
-# day2 task completed
+# Day 2 task completed
 
 
 
