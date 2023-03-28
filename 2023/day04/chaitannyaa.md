@@ -65,9 +65,11 @@ Each shell interpreter has its own syntax, features, and capabilities. Bash is a
 
 # Write a Shell Script to take user input, input from arguments and print the variables.
 
-![image](https://user-images.githubusercontent.com/117350787/227593322-c0012916-1263-468e-be62-91bc7fbf07a6.png)
+![wdqaww](https://user-images.githubusercontent.com/117350787/228121722-5020ab8f-969a-44fa-826c-841fc994fa77.PNG)
 
-# Write an Example of If else in Shell Scripting by comparing 2 numbers
+![awdqs](https://user-images.githubusercontent.com/117350787/228121820-65348440-65bf-4b45-8b1d-56ce3ae92ed8.PNG)
+
+# Write an example of If else in Shell Scripting for comparing 2 numbers
 
 ![image](https://user-images.githubusercontent.com/117350787/227599002-15016e1b-645a-41c7-bb8f-1f1ca25b33e0.png)
 
