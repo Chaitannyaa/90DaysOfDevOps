@@ -36,7 +36,7 @@ Overall, shell scripting is a powerful tool to automate repetitive tasks, manage
 
 # What is #!/bin/bash?
 
-#!/bin/bash is the shebang line and it is written first at the beginning of the script. It is used to specify the interpreter with which the given script will be run by default.
+#!/bin/bash is the shebang line and it is written first at the beginning of the script. It is nothing but the absolute path to the bash interpreter. This line is used to specify the interpreter with which the given script will be run by default.
 
 Syntax of shebang line is #!/bin/<shell_interpreter>
 
