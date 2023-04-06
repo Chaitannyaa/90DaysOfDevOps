@@ -12,4 +12,4 @@ https://chaitannyaa.hashnode.dev/linux-tools-and-utilities-user-and-group-manage
 
 ![image](https://user-images.githubusercontent.com/117350787/230472263-0e550648-abba-4314-9159-32e6818e4efe.png)
 
-# Day06 is completed
+# Day06 is completed.
