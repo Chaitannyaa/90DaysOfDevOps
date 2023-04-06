@@ -6,7 +6,7 @@
 
 2) Write an article about File Permissions based on your understanding from the notes.
 
-https://chaitannyaa.hashnode.dev/linux-tools-and-utilities-user-and-group-management-file-system-management-and-job-automation
+  https://chaitannyaa.hashnode.dev/linux-tools-and-utilities-user-and-group-management-file-system-management-and-job-automation
 
 3) Read about ACL and try out the commands `getfacl` and `setfacl`
 
