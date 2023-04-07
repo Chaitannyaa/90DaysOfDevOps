@@ -22,3 +22,5 @@
 - Add some changes to dev branch and merge that branch in master.
 
 - For practice try git rebase too, see what difference you get.
+
+# Day10 task is completed!
