@@ -37,8 +37,14 @@
 
 ![image](https://user-images.githubusercontent.com/117350787/230629751-8e03fa6a-157d-4c10-9f1d-ee53b5d0327d.png)
 
-- Add some changes to dev branch and merge that branch in master.
+- Add some changes to dev branch and merge that branch in main.
+
+![image](https://user-images.githubusercontent.com/117350787/230630510-75ffcb51-50ee-49dd-b6e7-6ec49dd1a232.png)
 
 - For practice try git rebase too, see what difference you get.
+
+![image](https://user-images.githubusercontent.com/117350787/230631406-3ad41692-8c0a-492e-b554-c4a0c68c7233.png)
+
+![image](https://user-images.githubusercontent.com/117350787/230631450-4024c96e-9280-4ef7-9f1a-06907491d326.png)
 
 # Day10 task is completed!
