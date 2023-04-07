@@ -33,15 +33,21 @@ GitHub is a web-based hosting service for Git repositories. It provides a platfo
 
 A local repository is a copy of a repository that is stored on your local machine, while a remote repository is a copy of the same repository that is stored on a server or a cloud-based hosting service, such as GitHub. local repository is stored on your own machine and can only be accessed by you, while a remote repository can be accessed by anyone who has permission to access it.
 
-Connect a local repository to a remote repository:
+## Connect a local repository to a remote repository:
 
-1. Create a new repository on the remote server (GitHub) and clone it to local machine using "git clone {}
-On your local machine, navigate to the directory that contains your project files.
-Open the command line interface (e.g., Git Bash on Windows) and navigate to the project directory.
-Initialize the local repository using the command git init. This will create a new local repository in the directory.
-Connect the local repository to the remote repository by adding the remote URL using the command git remote add origin <remote repository URL>.
-Verify the connection between the local and remote repositories using the command git remote -v.
-Push the local repository to the remote repository using the command git push -u origin main (or git push -u origin master for older repositories). This will upload all the files and commits from the local repository to the remote repository.
+- Create a new repository on the remote server (GitHub) and clone it to local machine using "git clone {repo url}
+
+or
+
+- Create repo on local having same name that of remote repo name.
+
+- Add remote access to repo: "git remote add origin {remote repository URL}"
+
+- Verify the connection between the local and remote repositories using the command "git remote -v"
+
+- Push the local repository to the remote repository using the command "git push origin main"
+
+- Pull updates from remote repository to the local repository using the command "git pull origin main"
 
 # Tasks
 
