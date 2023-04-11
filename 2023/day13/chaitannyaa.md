@@ -27,9 +27,9 @@
   - Set
   - Dictionary
 
-![image](https://user-images.githubusercontent.com/117350787/231261693-0072f968-bcd6-4014-9059-0c76f5a515b6.png)
+![image](https://user-images.githubusercontent.com/117350787/231264424-1d3264f4-ad53-41fe-9362-a07f86bd71b5.png)
 
-![image](https://user-images.githubusercontent.com/117350787/231261804-12f1330e-7a2e-45ca-8c55-653ebef851fd.png)
+![image](https://user-images.githubusercontent.com/117350787/231264490-122faa48-dc7d-41d5-bf64-4a48a4901048.png)
 
 Happy Learning, Ruko Mat Phod do😃
 
