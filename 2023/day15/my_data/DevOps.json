@@ -1,0 +1,5 @@
+{
+    "Cloud provider": "AWS",
+    "IaC tool": "terraform",
+    "Config.mgmt tool": "Ansible"
+}
