@@ -35,3 +35,6 @@ As you have already installed docker in previous days tasks, now is the time to 
 These tasks involve simple operations that can be used to manage images and containers.
 
 You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
+
+
+Day16 task is completed
