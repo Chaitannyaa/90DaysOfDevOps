@@ -15,6 +15,7 @@ YAML files use a .yml or .yaml extension.
 
 Learn how to use the docker-compose.yml file, to set up the environment, configure the services and links between different containers, and also to use environment variables in the docker-compose.yml file.
 
+
 # Task-2
 
 - Pull a pre-existing Docker image from a public repository (e.g. Docker Hub) and run it on your local machine. Run the container as a non-root user (Hint- Use usermod  command to give user permission to docker). Make sure you reboot instance after giving permission to user.
@@ -33,6 +34,6 @@ Make sure docker is installed and system is updated (This is already been comple
 sudo usermod -a -G docker $USER
 Reboot the machine.
 
-# You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
+## You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
 
 #Day18 task is completed!
