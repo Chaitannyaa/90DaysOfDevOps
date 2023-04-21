@@ -36,6 +36,8 @@ $ docker image push [REPOS_NAME:TAG]
 
 # You can share the learning with everyone over linkedin and tag us along 😃
 
+https://www.linkedin.com/posts/chaitannyaa-gaikwad-b16965115_day17-90daysofdevops-challenge-tws-activity-7055067045855408128-jh9k?utm_source=share&utm_medium=member_desktop
+
 Happy Learning:)
 
-Day17 task is Completed!
+# Day17 task is Completed!
