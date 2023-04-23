@@ -23,72 +23,19 @@ Before we start defining our services, we need to set up our environment. Create
 3. Configuring Services
 We will define our services. Each service is defined as a separate block in the docker-compose.yml file. Here is an example of how to define a service:
 
-docker-compose.yml
------------------------------------
-version: '3'
-services:
-  db:
-    image: postgres
-    container_name: postgresdb
-    ports:
-      - 6739:6739
-  web:
-    build: .
-    container_name: mywebapp
-    ports:
-      - 80:80
-      
---------------------------------------
+## docker-compose.yml
+
+![image](https://user-images.githubusercontent.com/117350787/233853322-7f464bc4-1e9f-4285-8135-443cde110fa5.png)
 
 4. Configuring links
 
-docker-compose.yml
------------------------------------
-version: '3'
-services:
-  db:
-    image: postgres
-    container_name: postgresdb
-    ports:
-      - 6739:6739
-  web:
-    build: .
-    container_name: mywebapp
-    ports:
-      - 80:80
-    links:
-      - db
-      
---------------------------------------
+## docker-compose.yml
+
+![image](https://user-images.githubusercontent.com/117350787/233853369-7d72e8cc-9df1-4308-a637-c1d0b4ede267.png)
 
 5. environment variables
 
------------------------------------
-version: '3'
-services:
-  db:
-    image: postgres
-    container_name: postgresdb
-    ports:
-      - 6739:6739
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: mydatabase
-      
-  web:
-    build: .
-    container_name: mywebapp
-    ports:
-      - 80:80
-    links:
-      - db
-    environment:
-      DB_USER: postgres
-      DB_PASSWORD: postgres
-      DB_DATABASE: mydatabase
-      
---------------------------------------
+![image](https://user-images.githubusercontent.com/117350787/233853420-aa8d1322-5df2-4fda-b4a4-9cceb6740257.png)
 
 # Task-2
 
