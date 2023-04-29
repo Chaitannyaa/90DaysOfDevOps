@@ -4,6 +4,7 @@
 
 What you understood in Jenkin, write a small article in your own words (Don't copy from Internet Directly)
 
+[Jenkins Blog Article >>>](https://www.linkedin.com/posts/chaitannyaa-gaikwad-b16965115_jenkins-the-ultimate-tool-for-continuous-activity-7058065767371538432-oLMI?utm_source=share&utm_medium=member_desktop)
 
 Jenkins is an open-source automation server that can complete any task given to it in an automated way provided all the plugins are installed on it to complete that task.
 
@@ -60,5 +61,9 @@ It can :
 ![image](https://user-images.githubusercontent.com/117350787/235322209-b8ca10ff-2b30-4b8a-8dbe-a8e02fc3cf6a.png)
 
 # This is how we can print the "Hello World!" using the Jenkins job in the freestyle project.
+
+## Linkedin Post is here-->>
+
+[Check out my Linkedin Post--->](https://www.linkedin.com/posts/chaitannyaa-gaikwad-b16965115_day22-90daysofdevops-challenge-tws-activity-7058179892449845248-BKZL?utm_source=share&utm_medium=member_desktop)
 
 # Day 22 task is completed!
