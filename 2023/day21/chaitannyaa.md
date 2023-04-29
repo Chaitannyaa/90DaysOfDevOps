@@ -7,6 +7,7 @@
  
 ## Questions
 
+[Answers for these Questions](https://90daysofdevopschallenge.hashnode.dev/day21-90daysofdevops-challenge-tws)
 
 - What is the Difference between an Image, Container and Engine?
 - What is the Difference between the Docker command COPY vs ADD?
@@ -33,8 +34,11 @@
   - command to remove all stopped containers, unused networks, build caches, and dangling images?
 - What are the common docker practices to reduce the size of Docker Image?
 
+[Answers for these Questions](https://90daysofdevopschallenge.hashnode.dev/day21-90daysofdevops-challenge-tws)
 
 These questions will help you in your next DevOps Interview.
 *Write a Blog and share it on LinkedIn.*
 
 **Happy Learning :)** 
+
+# Day 21 task is completed!
