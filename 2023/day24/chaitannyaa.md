@@ -32,11 +32,11 @@ Refer to this video for the entire project
 
 - In the Build steps - Execute shell run the application using Docker compose
 
-![image](https://user-images.githubusercontent.com/117350787/235362064-9696c332-d8ea-4678-99b3-eb18b122b7d8.png)
+![image](https://user-images.githubusercontent.com/117350787/235362839-4356c90c-b04f-47e8-913c-cb62a70e444a.png)
 
 - You will have to make a Docker Compose file for this Project (Can be a good open-source contribution)
 
-![image](https://user-images.githubusercontent.com/117350787/235362080-34a50781-41d5-43ea-8342-a239dcd260e1.png)
+![image](https://user-images.githubusercontent.com/117350787/235362853-a1a6a6c9-60fe-4882-a5cc-f58502c2a3cb.png)
 
 - Run the project and give yourself a treat:)
 
