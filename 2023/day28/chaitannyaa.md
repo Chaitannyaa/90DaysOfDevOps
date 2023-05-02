@@ -81,7 +81,7 @@ While creating an agent, be sure to separate rights, permissions, and ownership 
 
 Are you enjoying the #90DaysOfDevOps Challenge?
 
-Let me know how are feeling after 4 weeks of DevOps Learning.
+[linkedin post >>](https://www.linkedin.com/posts/chaitannyaa-gaikwad-b16965115_day28-90daysofdevops-challenge-tws-activity-7059243852917817344-xDi0?utm_source=share&utm_medium=member_desktop)
 
 Happy Learning:)
 
