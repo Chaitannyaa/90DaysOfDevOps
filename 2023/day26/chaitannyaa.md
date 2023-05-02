@@ -74,6 +74,8 @@ pipeline {
 
 - In case of any issues feel free to post on any Groups, [Discord](https://discord.gg/Q6ntmMtH) or [Telegram](https://t.me/trainwithshubham)
 
+![image](https://user-images.githubusercontent.com/117350787/235582028-a238cbab-f7e7-47ea-b31b-132aa2cd328c.png)
+
 ![image](https://user-images.githubusercontent.com/117350787/235580727-0072bf5d-ff43-44dc-a774-52b046f518e2.png)
 
 Happy Learning:)
