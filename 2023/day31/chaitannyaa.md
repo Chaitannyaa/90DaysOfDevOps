@@ -37,7 +37,7 @@ This makes it an interesting option for users who are new to containers, and als
 
 ## Task-01:
 
-## Install minikube on your local
+# Install minikube on your local
 For installation, you can Visit [this page](https://minikube.sigs.k8s.io/docs/start/).
 
 ## 1. Install docker first
@@ -49,7 +49,7 @@ For installation, you can Visit [this page](https://minikube.sigs.k8s.io/docs/st
 
 ![image](https://user-images.githubusercontent.com/117350787/236454810-16a48e3a-c9ef-4540-a816-d236bde018b3.png)
 
-## 1. Install Kubectl
+## 2. Install Kubectl
 
 - echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
 - sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
@@ -57,7 +57,7 @@ For installation, you can Visit [this page](https://minikube.sigs.k8s.io/docs/st
 
 ![image](https://user-images.githubusercontent.com/117350787/236454931-c10571e5-12c2-47dd-87ca-261139d098c7.png)
 
-## 1. Install minikube 
+## 3. Install minikube 
 
 - curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
 - sudo dpkg -i minikube_latest_amd64.deb
@@ -92,3 +92,5 @@ We are suggesting you make an nginx pod, but you can always show your creativity
 **Having an issue? Don't worry, adding a sample yaml file for pod creation, you can always refer that.**
 
 *Happy Learning :)*
+
+# Day31 task is completed!
