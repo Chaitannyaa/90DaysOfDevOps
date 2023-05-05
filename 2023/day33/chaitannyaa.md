@@ -34,10 +34,8 @@ kubectl apply -f Deployment.yml -n test-ns
 
 - Read about Services, Load Balancing, and Networking in Kubernetes. Refer official documentation of kubernetes [Link](https://kubernetes.io/docs/concepts/services-networking/)
 
-Need help with Namespaces? Check out this [video](https://youtu.be/K3jNo4z5Jx8) for assistance.
+- Need help with Namespaces? Check out this [video](https://youtu.be/K3jNo4z5Jx8) for assistance.
 
-Keep growing your Kubernetes knowledge💥🙌
+*Happy Learning! :)*
 
-Happy Learning! :)
-
-# Day 33 taskis completed!
+# Day 33 task is completed!
