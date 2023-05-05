@@ -23,6 +23,8 @@ You describe a desired state in a Deployment, and the Deployment Controller chan
 
 ![image](https://user-images.githubusercontent.com/117350787/236458694-b7159cac-a8aa-46c8-a389-8954868fba5f.png)
 
+![image](https://user-images.githubusercontent.com/117350787/236459783-7fa015fa-ac29-4a73-a441-0ed18a127b45.png)
+
 ![image](https://user-images.githubusercontent.com/117350787/236459068-deaff04e-9403-41fc-a081-b7d1af2711b4.png)
 
 **Having an issue? Don't worry, adding a sample deployment file , you can always refer that or wathch [this video](https://youtu.be/ONrbWFJXLLk)**
