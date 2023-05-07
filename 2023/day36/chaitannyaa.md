@@ -38,9 +38,12 @@ Accessing data in the Persistent Volume
 
 - Connect to a Pod in your Deployment using command : `kubectl exec -it <pod-name> -- /bin/bash`
 
-
+![image](https://user-images.githubusercontent.com/117350787/236676008-49b4867c-7239-4091-b15a-05cbddf894ad.png)
 
 - Verify that you can access the data stored in the Persistent Volume from within the Pod
+
+![image](https://user-images.githubusercontent.com/117350787/236675971-3e6f0be8-cfb5-45c2-af63-16af20ddc769.png)
+
 
 Need help with Persistent Volumes? Check out this [video](https://youtu.be/U0_N3v7vJys) for assistance.
 
