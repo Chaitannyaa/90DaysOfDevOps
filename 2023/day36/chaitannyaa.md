@@ -34,8 +34,7 @@ Add a Persistent Volume to your Deployment todo app.
 ⚠️ Don't forget: To apply changes or create files in your Kubernetes deployments, each file must be applied separately. ⚠️
 
 ### Task 2:
-
-Accessing data in the Persistent Volume,
+Accessing data in the Persistent Volume
 
 - Connect to a Pod in your Deployment using command : `kubectl exec -it <pod-name> -- /bin/bash`
 
