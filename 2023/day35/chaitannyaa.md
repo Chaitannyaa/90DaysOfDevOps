@@ -52,11 +52,7 @@ spec:
         ports:
         - containerPort: 3306
         env:
-        - name: MYSQL_ROOT_PASSWORD
-          valueFrom:
-            secretKeyRef:
-              name: mysql-secret
-              key: password
+        - MYSQL_ROOT_PASSWORD: hello
         - name: MYSQL_DATABASE
           valueFrom:
             configMapKeyRef:
@@ -76,10 +72,67 @@ spec:
 Create a Secret for your Deployment
 
 - Create a Secret for your Deployment using a file or the command line
+
+```sh
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysql-secret
+type: Opaque
+data:
+  password: aGVsbG8K
+```
+
 - Update the deployment.yml file to include the Secret
+
+```sh
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql
+  labels:
+    app: mysql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers:
+      - name: mysql
+        image: mysql:8
+        ports:
+        - containerPort: 3306
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql-secret
+              key: password
+        - name: MYSQL_DATABASE
+          valueFrom:
+            configMapKeyRef:
+              name: mysql-config
+              key: MYSQL_DB
+```
+
 - Apply the updated deployment using the command: `kubectl apply -f deployment.yml -n <namespace-name>`
+
+```sh
+kubectl apply -f deployment.yml -n test-ns
+```
+![image](https://user-images.githubusercontent.com/117350787/236671156-de714219-aab0-4f0c-88f3-d55923a25952.png)
+
 - Verify that the Secret has been created by checking the status of the Secrets in your Namespace.
 
-Need help with ConfigMaps and Secrets? Check out this [video](https://youtu.be/FAnQTgr04mU) for assistance.
-  
+![image](https://user-images.githubusercontent.com/117350787/236671127-e114019a-8fbd-4a42-ab5b-7c85e15aed93.png)
+
+![image](https://user-images.githubusercontent.com/117350787/236671213-a687aaa6-e8dc-49de-b6d5-2f7c8ec56c79.png)
+
 Keep learning and expanding your knowledge of Kubernetes💥🙌
+
+# Day 35 task is completed!
