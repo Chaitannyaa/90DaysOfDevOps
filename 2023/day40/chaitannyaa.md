@@ -110,10 +110,21 @@ An Amazon Machine Image (AMI) is an image that AWS supports and keeps up to date
 
 ## Lets reduce CPU load and verify scale-in works
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/94b9671e-8dd6-4bf7-b9ab-d90b05a70911)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/742abba8-c99f-49b8-9c1f-daf62ca50409)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/b3a76a18-511f-412b-a714-f7b57df64c5f)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/13313ede-6064-4c63-9ff0-fabc33037f18)
+
+## if you delete ASG then all the instances will be wiped-out
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/d40b087d-47a4-49ab-9b19-56481f7c90df)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/0b1d79fb-f02d-42c5-acf1-12756886e947)
 
 Check out [this](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html#create-launch-template-for-auto-scaling)!
-    
-Post your progress on Linkedin. 
 
 Happy Learning :)
 # Day40 task is complete! 
