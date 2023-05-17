@@ -72,6 +72,44 @@ An Amazon Machine Image (AMI) is an image that AWS supports and keeps up to date
 
 - You can go one step ahead and create an auto-scaling group, sounds tough? 
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/fc28cff5-3c02-41be-ab76-85a431ea91f2)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/de57e3a7-80ad-4820-9ca5-78ec065d6192)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/50468a1b-e3f8-4871-8c47-02b434008877)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/8bed3645-1162-4895-b00e-e32b868a4e64)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7b05a3fb-59d7-4456-b392-4f193af5aa1d)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/fb9b7be7-8707-4710-8cf9-643aaf6349da)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/364bcad0-4ed2-44a0-834e-f8dd6f0a681a)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/84bf845e-638e-495c-98b5-52b4492862b5)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/87923d0f-fb39-4b3f-9821-4ac10921985d)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/cc84b41f-f79a-4ef0-8c8e-838c6f03385e)
+
+## Now increase the CPU utilization of current running instance to verify ASG works fine and scale-out works
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/475217ab-9fc3-4546-ac91-105be0289e19)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/dce521d2-9825-4d25-a995-7e1726dec28c)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/ab9d4c19-756b-4b96-bbcf-b583e0415530)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/0dd85ee0-14ad-4be5-b72f-10df0903f622)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7e35a970-7eb0-4c00-8a27-39216f3e5d73)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e4473de2-7fd4-4687-bf61-76fcdcd02542)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/975aba8f-0218-4c56-82b6-b329ea4c5a17)
+
+## Lets reduce CPU load and verify scale-in works
+
 
 Check out [this](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html#create-launch-template-for-auto-scaling)!
     
