@@ -50,11 +50,28 @@ An Amazon Machine Image (AMI) is an image that AWS supports and keeps up to date
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/be607b87-b785-4b57-8849-cfcd2a55de4b)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/fcb4c056-50db-4c69-8de8-7619af514c21)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/c89427fd-e9d7-4f33-8ca1-698e23b6c53f)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/467ae9c8-6b76-4f13-95b9-13a7e294eb94)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/d2f025c1-d11e-4589-8a2f-b4fd96d4d8f7)
 
 - Create 3 Instances using Launch Template, there must be an option that shows number of instances to be launched ,can you find it? :)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/74ead58c-48ee-494a-8923-9144f7d10207)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/4aea109f-57a3-4e77-919f-5d80014e05f4)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/21986681-1918-438c-a79d-dbeb2ef2d5a7)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3a491eec-1ed4-4418-9667-0ee7a5c725a6)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/0a5af8dd-7712-40ea-9c86-cee589ef0306)
+
 - You can go one step ahead and create an auto-scaling group, sounds tough? 
+
 
 Check out [this](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-launch-template.html#create-launch-template-for-auto-scaling)!
     
