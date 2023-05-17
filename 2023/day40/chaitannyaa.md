@@ -38,6 +38,20 @@ An Amazon Machine Image (AMI) is an image that AWS supports and keeps up to date
 
 - Create a launch template with Amazon Linux 2 AMI and t2.micro instance type with Jenkins and Docker setup (You can use the Day 39 User data script for installing the required tools.
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/df42b4b3-cd72-4cb9-9342-42c265baeda1)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/286062ef-11d6-4a3a-ab4e-79ad61180be6)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/91d7bd33-f5b0-4a16-9738-4ccf370fe600)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/48dee429-bf67-47c2-89c1-ef5957686346)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/25f1c14f-fc53-4387-8585-cbbb65b5082f)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/be607b87-b785-4b57-8849-cfcd2a55de4b)
+
+
+
 - Create 3 Instances using Launch Template, there must be an option that shows number of instances to be launched ,can you find it? :)
 
 - You can go one step ahead and create an auto-scaling group, sounds tough? 
