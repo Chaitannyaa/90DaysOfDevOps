@@ -66,10 +66,11 @@ Read more [here](https://docs.aws.amazon.com/cli/latest/reference/s3/index.html)
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7ab661bd-b7d2-4df5-a255-7831203959e3)
 
-![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/14407b95-4db8-44ce-800c-59621cad87fc)
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/b9f5d058-b826-4fe1-9e5e-4b58288048bd)
 
 - Verify that the file is available inside our newly created instance.
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/9be39976-7da2-436b-a4cf-aea6c0f1fd1e)
 
 Here are some commonly used AWS CLI commands for Amazon S3:
 
