@@ -16,7 +16,27 @@ Read more about it [here](https://docs.aws.amazon.com/sns/latest/dg/welcome.html
 
 - Create a CloudWatch alarm that monitors your billing and send an email to you when a it reaches $2.
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3c15fe2b-248b-4562-b8ec-7a314523db4d)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/77b66cd7-919c-4194-a4eb-d93d88b14c5f)
+
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/efef6a01-c137-4d29-859f-74a986cd2058)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/8a155b80-fd46-4924-bbd2-05d21ab1ecc5)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/446b1251-0975-4d08-8889-accf96e72ed1)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/0f9054c7-287f-4a2a-a60a-8bab8088be17)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/0170a65c-38a7-4bb9-b0f3-c781063e844f)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/d4dfafcf-046e-45a8-8c30-52e2eeb8380b)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e98a8383-974a-4241-992b-eff03f507427)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/31de1a1d-63a7-4b84-8b17-bbf557534133)
+
+
 
 
 
