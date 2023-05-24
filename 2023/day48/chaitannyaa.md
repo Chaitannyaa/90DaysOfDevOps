@@ -95,6 +95,14 @@ Set up ECS (Elastic Container Service) by setting up Nginx on ECS.
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/1b914a16-ac6b-4927-af5f-43c17d705b7b)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/55cafcaf-298f-4c7d-93c8-34fd26ff45a9)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/6f9aad2c-e3e6-4f86-85e1-c0eb8c85f05d)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/1e9a379a-f9d7-4732-8fd1-b17aeabc2268)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/66c06584-131f-49c3-96f0-b5b45188a53b)
+
 
 
 
