@@ -103,6 +103,10 @@ Set up ECS (Elastic Container Service) by setting up Nginx on ECS.
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/66c06584-131f-49c3-96f0-b5b45188a53b)
 
+That's all, we have deployed our application using ECS.
 
+Happy Learning!
+
+# Day 48 task is completed!
 
 
