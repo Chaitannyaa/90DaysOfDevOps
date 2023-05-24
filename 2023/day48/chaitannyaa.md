@@ -37,10 +37,43 @@ Kubernetes has a large and active open-source community, which means that EKS be
 In summary, EKS is a good choice if you want to use Kubernetes to manage your containerized workloads on AWS, while ECS is a good choice if you want a simpler, more managed platform for running your containerized applications.
 
 # Task :
-
 Set up ECS (Elastic Container Service) by setting up Nginx on ECS.
 
+## step 1: Create a cluster for our deployments
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/21a6a90a-15db-4a31-a872-efd5920af0b5)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7a55f4ac-aeae-4f32-ad78-f3b3f10e2d97)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/56913474-b5ed-43d1-b140-f1571171a7cb)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3783dc81-17c1-424f-838e-98f9b0b479ef)
+
+## step 2: Create an ECS Task Definition
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/4faa4191-58a4-4d80-b86d-6688a042c653)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/b98b7527-1968-4f52-9ae6-2aa39cee4451)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7112f111-56b0-4eb2-86a4-9ecdf8b8ba5e)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/059c37b4-91be-424b-8ba0-d88f8c22e123)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/05b997ad-fc1f-4013-9d4c-2564c124ad37)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/ab446ab9-58c5-49ad-9ed5-d571c8b008ff)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/36a0426a-20c0-4020-b009-cc4a72e31502)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/c2dedcc7-674c-46e4-b2bd-2d62ebcf5eae)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/58a679c7-7172-4a0d-b215-4b23e86ab342)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/c0365c69-f682-4baa-a0ef-29b257ff315e)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3b8cc8b5-510f-4fbf-ab9e-e80029c1a137)
+
+## Step 3: Create an ECS Service
 
 
 
