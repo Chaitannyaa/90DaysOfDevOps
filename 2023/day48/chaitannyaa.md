@@ -75,6 +75,26 @@ Set up ECS (Elastic Container Service) by setting up Nginx on ECS.
 
 ## Step 3: Create an ECS Service
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/64ebf57d-55a4-4f1f-b11d-d9257321e1f0)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3b9f009e-24df-4827-aa3f-bbf63b44389c)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/141dd60c-0f3b-4c40-a574-e68ae234b0cb)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/6e8ed63e-c731-4837-92cd-26b046353295)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/8c1edaaa-4acf-475e-923c-3ed9bb6df60b)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/49fefe07-7796-4ee6-b5f2-5c36940b930c)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/4739f71c-96de-4fa9-a9c3-3264b8f89704)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/2eaecac4-6f6a-4523-917c-81ea3a5b5829)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7ffe7972-6f43-4e2a-9fa0-a6dd3b987d14)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/1b914a16-ac6b-4927-af5f-43c17d705b7b)
+
 
 
 
