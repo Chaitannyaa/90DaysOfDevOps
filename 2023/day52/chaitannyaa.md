@@ -47,7 +47,7 @@ CodeDeploy can deploy application content that runs on a server and is stored in
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7268b636-4950-43ef-b94a-cb4a609b68b9)
 
-![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/8708927d-4c33-4b60-9ffb-403d5d397065)
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/a62130f9-5f46-495a-97c7-e337c989f732)
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/de141f0c-3a38-4176-923a-93fdeaf35af0)
 
