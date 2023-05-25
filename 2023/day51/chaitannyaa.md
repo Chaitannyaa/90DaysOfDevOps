@@ -112,6 +112,8 @@ artifacts:
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/5dbfd18b-3c66-48ea-9fe8-9bb4e77ef8f9)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3cd3bef1-df7b-40ed-884d-5e7455326281)
+
 Happy Learning :)
 
 I hope you enjoyed the task with me :)
