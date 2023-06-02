@@ -37,10 +37,26 @@ Note: `servers` is the group of hosts defined in my inventory file
 
 - Refer to [this](https://www.middlewareinventory.com/blog/ansible-ad-hoc-commands/) blog to understand the different examples of ad-hoc commands and try out them.
 
+#### Check free memory space using AD-HOC command
+
 `ansible servers -a "free -h"`
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/c7bcdde4-f042-4b91-b2f9-e8c311c03103)
 
+#### Check free disk space using AD-HOC command
 
+`ansible servers -a "df -h"`
 
-happy Learning :)
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/64250832-6783-4e1d-8a70-bece085ff8b1)
+
+#### Update all node's system using AD-HOC command
+
+`ansible servers -a "sudo apt update"`
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3d22b8ca-93f0-489f-89f1-e25374a167fe)
+
+## I hope you learned the use of Ansible Ad-Hoc commands
+
+Happy Learning :)
+
+# Day 56 task is complete!
