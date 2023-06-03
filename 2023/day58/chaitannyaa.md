@@ -28,6 +28,14 @@ Ansible playbooks run multiple tasks, assign roles, and define configurations, d
 
 - Write an ansible playbook to create a new user.
 
+`$ vim create_new_user.yml`
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/73b94786-40c9-4b41-b3b4-6e820ac28d6b)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/923e658f-9f10-46af-81e6-08eada5e9ff9)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/13693376-443b-4ef9-9eca-de04cc15db2c)
+
 - Write an ansible playbook to install docker on a group of servers
 
 Watch [this](https://youtu.be/089mRKoJTzo) video to learn about ansible Playbooks
