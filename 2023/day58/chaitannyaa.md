@@ -20,7 +20,7 @@ Ansible playbooks run multiple tasks, assign roles, and define configurations, d
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/4c341c48-62c2-4413-b445-4c9528bdfb71)
 
-`ansible-playbook create_file.yml`
+`$ ansible-playbook create_file.yml`
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/04c0bb59-ff89-4666-84dc-4389b65fc88b)
 
@@ -38,12 +38,24 @@ Ansible playbooks run multiple tasks, assign roles, and define configurations, d
 
 - Write an ansible playbook to install docker on a group of servers
 
+`$ vim install_docker.yml`
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/95c1ee6b-1155-48e9-82bc-bbd2d677be0a)
+
+`$ ansible-playbook install_docker.yml`
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7d78dcce-5baa-4734-916f-e10563b01590)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/bd237d62-9018-4701-be4f-8619735153f6)
+
 Watch [this](https://youtu.be/089mRKoJTzo) video to learn about ansible Playbooks
 
 # Task-02
 
 - Write a blog about writing ansible playbooks with the best practices.
 
-Let me or anyone in the community know if you face any challenges
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/ca506e26-b615-4a66-b59f-00e2a91d9d5b)
 
-happy Learning :)
+Happy Learning :)
+
+# Day 58 task is complete!
