@@ -18,9 +18,7 @@ default = "This is coming from a variable which was updated"
 
 These variables can be accessed by var object in `main.tf`
 
-## Task-01
-
-- Create a local file using Terraform
+## Task-01: Create a local file using Terraform
 
 Hint:
 
@@ -60,22 +58,31 @@ default = {
 }
 }
 ```
+**Let's use `map type` to create files--->**
 
-## Task-02 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/66412356-8110-4707-a5d4-456a8ac43771)
 
-- Use terraform to demonstrate usage of List, Set and Object datatypes
-- Put proper screenshots of the outputs
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/69616dcf-7732-4ddd-bdc4-3e0d25d35d07)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/62a32936-dc5f-4a68-bdee-ca62a5e17326)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/0ea30850-7239-4d37-be4a-fdb765a7692c)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7484d201-943a-42d4-84db-04a0ebda76a0)
+
+![dswqadea](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/db54ce4d-ccd0-4f49-9995-5f72ef0a0204)
+
+## Task-02: Use terraform to demonstrate usage of List, Set and Object datatypes
 
 
-Use `terraform refresh`
+
+
+**Use `terraform refresh`**
 
 To refresh the state by your configuration file, reloads the variables
 
 
 
-
-# Video Course
-
-I can imagine, Terraform can be tricky, so best to use a Free video Course for terraform [here](https://bit.ly/tws-terraform)
+agine, Terraform can be tricky, so best to use a Free video Course for terraform [here](https://bit.ly/tws-terraform)
 
 Happy Learning :)
