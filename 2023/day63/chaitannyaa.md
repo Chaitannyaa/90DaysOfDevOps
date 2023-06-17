@@ -74,15 +74,109 @@ default = {
 
 ## Task-02: Use terraform to demonstrate usage of List, Set and Object datatypes
 
+**Let's use `type - list` to create files--->**
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e50f7dc8-897e-45f3-98ea-ac85fd6bde14)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/dc36da2a-2adb-4915-ad59-917cb7c890f6)
 
-**Use `terraform refresh`**
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/f8492f59-86fd-40dc-9823-cd068f670061)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e275e244-3f77-4979-8fa1-3528d499fc00)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/c3c76083-dc67-4411-8924-2a1a4de09471)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/37922f28-d4ee-4c23-ae66-94969994e6f9)
+
+**Let's use `type - set` to create files--->**
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/bf464904-2015-4993-9e39-38716fecb71f)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/0c4cc435-c16b-46c0-9274-dd27644cd3b2)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/8a93fe54-c185-46b7-81e0-d382fcae954d)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/895a1158-ae24-41d6-8e6e-6e1e914f519d)
+
+![vdfvs](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/24d146b6-0de3-4723-8e2a-95c02699d672)
+
+**Let's use `type - Object` to create files--->**
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/906293f4-2030-4493-b18d-646c57ec1076)
+
+```sh
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
+  required_version = "~> 1.3.9"
+}
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_security_group" "main" {
+  name_prefix = "${var.aws_ec2_object.name}-sg"
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  ingress {
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+
+resource "aws_instance" "ec2" {
+  count = var.aws_ec2_object.instances
+
+  ami           = var.aws_ec2_object.ami
+  instance_type = var.aws_ec2_object.instance_type
+  key_name      = element(var.aws_ec2_object.keys, count.index)
+  vpc_security_group_ids = [aws_security_group.main.id]
+
+  tags = {
+    Name = "${var.aws_ec2_object.name}-${count.index+1}"
+  }
+}
+```
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/f68990ef-56ef-47af-ac4b-fd36fc1a9659)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/4d6fddb5-2c8c-44ac-9646-6a3c74244577)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/62280152-8ae9-4259-a42b-6bc860f28af8)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/4bbe7475-4523-40d8-8578-fe11544ac169)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3b7d165f-3ed6-4549-9585-b29d6e6badb8)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/9350fb2c-7233-4093-8f3f-c03ba800efc6)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7ada7635-4737-499e-8fa6-2358128bddf8)
+
+**Use of `terraform refresh`**
 
 To refresh the state by your configuration file, reloads the variables
 
+terraform refresh is used to update the state file with the real-world state of the resources that are already managed by Terraform.
 
+When a Terraform configuration is applied using terraform apply or terraform plan, the state file is updated with the latest state of the resources. However, it's possible for the state file to become out of sync with the real-world state of the resources being managed. For example, if a resource is manually edited, created, or destroyed outside of Terraform, the state file will no longer accurately reflect the true state of the resource.
 
-agine, Terraform can be tricky, so best to use a Free video Course for terraform [here](https://bit.ly/tws-terraform)
+terraform refresh can be used to remedy this issue. This command refreshes the state file from the real-world state of the resources, ensuring that the state file accurately reflects the current state of the resources.
 
-Happy Learning :)
+It's a good practice to run terraform refresh before running terraform plan to ensure that the Terraform state file is up to date with the real-world resources. This helps avoid any potential problems that might arise from applying a configuration based on stale or inaccurate state information.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/667c2ea7-a836-4e1e-bd77-0f5eb0741a49)
+
+**Happy Learning :)**
+
+# Day 63 task is complete!
