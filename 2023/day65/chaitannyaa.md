@@ -150,7 +150,7 @@ resource "aws_instance" "web_server" {
 
 - Your EC2 instance is up and running, you can access the website you just hosted on it.
 
-![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/62a16c48-edd7-4efc-9d61-158bd15c6386)
+![246646185-62a16c48-edd7-4efc-9d61-158bd15c6386](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/19edcdbb-1acb-4aba-a8bc-9c25b5485090)
 
 Happy Terraforming!
 
