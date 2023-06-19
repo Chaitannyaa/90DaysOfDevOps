@@ -96,6 +96,7 @@ resource "aws_lb_target_group" "web_server_tg" {
 - Run terraform apply to create the Auto Scaling Group.
 
 
+
 ## Task 2: Test up scaling - down scaling
 
 - Edit your main.tf with increased desired capacity to 2 then apply it.
