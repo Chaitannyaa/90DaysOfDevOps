@@ -78,6 +78,8 @@ Grafana is good for various monitoring scenarios, including:
 
 Metrics and visualizations are integral components of Grafana's capabilities:
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/c739ce2e-8b07-4528-87f6-b860256af442)
+
 **Metrics**: In Grafana, metrics refer to the data points or measurements that are monitored and analyzed. Metrics can take various forms, such as counters, gauges, or aggregated values, depending on the type of data being collected. Grafana supports the integration of data sources that provide metric data for visualization and analysis. 📈📉
 
 **Visualizations**: Grafana offers a wide range of visualization options to represent metric data effectively. Users can choose from various graph types, such as line graphs, bar charts, scatter plots, and histograms, to visualize the metrics. Additionally, Grafana provides other visualization elements like single stats, gauges, and text boxes to present metrics in a meaningful and informative manner. 📊
@@ -91,6 +93,8 @@ Prometheus is a time-series database and monitoring system, while Grafana is pri
 - **Grafana**: Grafana serves as a visualization and dashboarding tool that connects to Prometheus and other data sources. It queries Prometheus for metrics data and presents it in visually appealing dashboards, graphs, and charts. 📊
 
 By combining Prometheus and Grafana, users can leverage the strengths of both tools. Prometheus handles the data collection and analysis, while Grafana delivers an elegant and user-friendly interface for visualizing and exploring the collected metrics.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/cd402a52-0d34-4999-b08f-25bd511eb604)
 
 ### Use Cases of Grafana--->
 
