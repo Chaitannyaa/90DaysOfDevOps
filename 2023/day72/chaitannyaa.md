@@ -4,6 +4,8 @@
 
 Grafana is a open-source metric analytics and visualization suite designed to query, visualize, alert, and understand metrics from various sources, regardless of where they are stored. It provides a user-friendly interface for creating interactive and informative dashboards that display real-time data. 📊📈
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/9a4a65d4-ae1b-4765-ac8e-42cfbcdd2a8d)
+
 ### Features of Grafana ✨
 
 1. **Dashboards**: Grafana allows users to create stunning dashboards by incorporating a wide range of elements such as graphs, charts, text boxes, and alerts. The flexible layout options enable users to customize the appearance of their dashboards to suit their specific needs. 📊
@@ -11,6 +13,8 @@ Grafana is a open-source metric analytics and visualization suite designed to qu
 2. **Data Sources**: Grafana supports connectivity to numerous databases, including Graphite, InfluxDB, Prometheus, Elasticsearch, MySQL, Postgres, MongoDB, CloudWatch, Azure Monitor, and many more. This versatility allows users to consolidate data from various sources into a single unified dashboard. 💻
 
 3. **Templating**: With templating, Grafana enables the creation of dynamic dashboards using variables and templates. This feature is particularly useful when working with large datasets or when needing to switch between different data sources or time ranges effortlessly. 📁
+
+![mobile-diagram](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/9a33eb7d-b16b-403a-a3f6-2baff9fab3b1)
 
 4. **Alerting**: Grafana's alerting capabilities allow users to set up alerts on specific metrics and define notification rules for alerting teams or individuals. These alerts can be configured based on threshold values, anomaly detection, or other customized conditions. 🚨🔔
 
@@ -43,6 +47,8 @@ Grafana supports integration with various databases, making it a versatile tool 
 3. **Prometheus**: Prometheus is a powerful open-source monitoring and alerting toolkit with its own time-series database. Grafana can connect to Prometheus and leverage its metrics data to create rich visualizations and dashboards.
 
 4. **Elasticsearch**: Elasticsearch is a distributed search and analytics engine known for its scalability and real-time data processing capabilities. Grafana can connect to Elasticsearch and provide visualizations for the indexed data.
+
+![grafana-supported-databases](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/c02d0020-74c8-40a9-9912-e611766ec893)
 
 5. **MySQL**: MySQL is a widely used open-source relational database management system. Grafana supports MySQL as a data source, enabling users to monitor and visualize metrics and data stored in MySQL databases.
 
@@ -85,6 +91,16 @@ Prometheus is a time-series database and monitoring system, while Grafana is pri
 - **Grafana**: Grafana serves as a visualization and dashboarding tool that connects to Prometheus and other data sources. It queries Prometheus for metrics data and presents it in visually appealing dashboards, graphs, and charts. 📊
 
 By combining Prometheus and Grafana, users can leverage the strengths of both tools. Prometheus handles the data collection and analysis, while Grafana delivers an elegant and user-friendly interface for visualizing and exploring the collected metrics.
+
+### Use Cases of Grafana--->
+
+**DevOps:** Grafana plays a crucial role in monitoring infrastructure, application metrics, and logs in a DevOps environment. It allows teams to proactively identify and resolve issues, ensure service availability, and track performance trends.
+
+**IoT and Sensor Data:** Grafana can integrate with IoT platforms and sensor networks to monitor and visualize data from connected devices. This enables real-time tracking of sensor readings, anomaly detection, and predictive maintenance.
+
+**E-commerce:** Grafana can be used to monitor website performance, track transaction volumes, and analyze user behavior patterns. This helps in identifying potential issues, optimizing conversion rates, and enhancing the overall user experience.
+
+**Cloud Infrastructure:** Grafana's integration with cloud platforms makes it an excellent choice for monitoring cloud resources, such as virtual machines, containers, storage, and databases. It helps in optimizing resource utilization, cost management, and ensuring compliance.
 
 Overall, Grafana and Prometheus complement each other in creating a comprehensive monitoring and visualization solution.
 
