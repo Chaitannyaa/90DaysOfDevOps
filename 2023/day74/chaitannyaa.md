@@ -2,20 +2,23 @@
 
 Connect a Linux and Windows EC2 instance with Grafana. By doing so, we'll be able to monitor various components of our servers and gain valuable insights into their performance. So let's dive right in and get started!
 
-## Step 1: Install Grafana
+## Step 1: Install Grafana and setup instances to monitor
 
 To begin, we need to have Grafana installed on a separate EC2 instance or a server. Grafana is an open-source monitoring and visualization tool that provides a rich set of features for data analytics and monitoring various systems and applications.
 
 1. Install Grafana by following this link---> [Install Grafana](https://90daysofdevopschallenge.hashnode.dev/day73-90daysofdevops-challenge-tws)
 
-2. Launch two more EC2 instances on AWS Linux and Windows for monitoring their resources using Grafana.
+2. Launch another EC2 instance (Linux or Windows) on AWS for monitoring its resources using Grafana.
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/2de282df-3839-4e95-9113-be7d3cbf055d)
 
-Once you have Grafana up and running on your server, we can move on to the next step.
+I have created Linux instance - Ubuntu 22.04 LTS for this demo.
+
+Once you have Grafana up and running on your server, Let's move to the next step.
 
 ## Step 2: Configure Data Sources
 
-Now that Grafana is installed, we need to configure it to connect with our Linux and Windows EC2 instances. Grafana supports various data sources, including Prometheus, Graphite, Elasticsearch, and more. In our case, we'll focus on connecting with the EC2 instances directly.
+Now Grafana is installed, we need to configure it to connect with our Linux and Windows EC2 instances. Grafana supports various data sources, including Prometheus, Graphite, Elasticsearch, and more. In our case, we'll focus on connecting with the EC2 instances directly.
 
 1. Open your web browser and access the Grafana web interface by entering the IP address or domain name of your Grafana server.
 
@@ -31,9 +34,15 @@ Now that Grafana is installed, we need to configure it to connect with our Linux
 
 4. Click on "Add data source" to add a new data source.
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/23b9486c-c183-41e5-bf77-2569307a9de4)
 
 5. Select the appropriate data source type for your EC2 instances. For Linux, you can choose "Prometheus" or "CloudWatch." For Windows, select "CloudWatch."
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e6e518e0-5c98-4f27-a8c7-6fde3ce61386)
+
 6. Configure the data source settings, including the AWS region and access credentials. Make sure to provide the necessary permissions to access the EC2 instances' metrics and data.
+
+
 7. Test the data source connection to ensure everything is set up correctly.
 
 Congratulations! You have successfully configured the data sources to connect with your EC2 instances. Now it's time to create dashboards and visualize the data.
