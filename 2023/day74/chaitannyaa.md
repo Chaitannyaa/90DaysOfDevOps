@@ -1,4 +1,4 @@
-# Day 74 - Monitor your AWS EC2 instances with Grafana.
+# Day 74 - Monitor your AWS EC2 instances with Grafana and Prometheus.
 
 Connect a Linux and Windows EC2 instance with Grafana. By doing so, we'll be able to monitor various components of our servers and gain valuable insights into their performance. So let's dive right in and get started!
 
@@ -16,7 +16,7 @@ I have created Linux instance - Ubuntu 22.04 LTS for this demo.
 
 Once you have Grafana up and running on your server, Let's move to the next step.
 
-## Step 2: Configure Data Sources
+## Step 2: Install and Configure Data Sources (Prometheus in this case)
 
 Now Grafana is installed, we need to configure it to connect with our Linux and Windows EC2 instances. Grafana supports various data sources, including Prometheus, Graphite, Elasticsearch, and more. In our case, we'll focus on connecting with the EC2 instances directly.
 
@@ -39,6 +39,18 @@ Now Grafana is installed, we need to configure it to connect with our Linux and 
 5. Select the appropriate data source type for your EC2 instances. For Linux, you can choose "Prometheus" or "CloudWatch." For Windows, select "CloudWatch."
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e6e518e0-5c98-4f27-a8c7-6fde3ce61386)
+
+**Now you need to install Prometheus server as our data source--->**
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/f68746ab-073b-4c9d-8e6f-315829cdcf47)
+
+**What is Node Exporter?**
+
+Node Exporter is a Prometheus exporter specifically designed to collect and expose system-level metrics from a target machine. It is a popular component of the Prometheus monitoring ecosystem. Node Exporter runs as a separate service on the target machine and provides a wide range of metrics related to CPU usage, memory utilization, disk activity, network statistics, system load, and more.
+
+Node Exporter collects these metrics by interacting with various operating system interfaces, such as /proc and /sys on Linux systems. It exposes these metrics in a Prometheus-compatible format, allowing Prometheus to scrape and store them for monitoring and alerting purposes.
+
+**Let's install Prometheus on monitoring server where our Grafana is running and node exporter on both monitoring server and Targeted instance --->**
 
 6. Configure the data source settings, including the AWS region and access credentials. Make sure to provide the necessary permissions to access the EC2 instances' metrics and data.
 
