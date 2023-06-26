@@ -1,24 +1,15 @@
-# Day 74 - Connecting EC2 with Grafana.
+# Day 74 - Monitor your AWS EC2 instances with Grafana.
 
-Connect an Linux and one Windows EC2 instance with Grafana. By doing so, we'll be able to monitor various components of our servers and gain valuable insights into their performance. So let's dive right in and get started!
-
-## Prerequisites
-
-Before we begin, make sure you have the following prerequisites in place:
-
-1. An active AWS account.
-2. Two EC2 instances: one running Linux and the other running Windows.
-3. Grafana installed on a separate EC2 instance or a server.
-
-If you haven't set up these prerequisites yet, take some time to do so before proceeding. Once you have everything ready, let's move on to the next steps.
+Connect a Linux and Windows EC2 instance with Grafana. By doing so, we'll be able to monitor various components of our servers and gain valuable insights into their performance. So let's dive right in and get started!
 
 ## Step 1: Install Grafana
 
 To begin, we need to have Grafana installed on a separate EC2 instance or a server. Grafana is an open-source monitoring and visualization tool that provides a rich set of features for data analytics and monitoring various systems and applications.
 
-1. Launch an EC2 instance or use an existing one as your Grafana server. Make sure it meets the system requirements for Grafana.
-2. Connect to your Grafana server via SSH or any other remote access method.
-3. Install Grafana by following the this link---> [Install Grafana](https://90daysofdevopschallenge.hashnode.dev/day73-90daysofdevops-challenge-tws)
+1. Install Grafana by following this link---> [Install Grafana](https://90daysofdevopschallenge.hashnode.dev/day73-90daysofdevops-challenge-tws)
+
+2. Launch two more EC2 instances on AWS Linux and Windows for monitoring their resources using Grafana.
+
 
 Once you have Grafana up and running on your server, we can move on to the next step.
 
@@ -27,9 +18,20 @@ Once you have Grafana up and running on your server, we can move on to the next 
 Now that Grafana is installed, we need to configure it to connect with our Linux and Windows EC2 instances. Grafana supports various data sources, including Prometheus, Graphite, Elasticsearch, and more. In our case, we'll focus on connecting with the EC2 instances directly.
 
 1. Open your web browser and access the Grafana web interface by entering the IP address or domain name of your Grafana server.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/21f12536-07c0-405c-b860-bf91a9d5758e)
+
 2. Log in to Grafana using your credentials. The default username and password are usually "admin" and "admin" respectively. Make sure to change the password after logging in.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/55122e9c-86ed-48ce-a31a-58fd5b6e3f1b)
+
 3. Once logged in, go to the Configuration menu and select "Data Sources."
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e7c7c943-563e-46cd-9f0f-2e356204d2d2)
+
 4. Click on "Add data source" to add a new data source.
+
+
 5. Select the appropriate data source type for your EC2 instances. For Linux, you can choose "Prometheus" or "CloudWatch." For Windows, select "CloudWatch."
 6. Configure the data source settings, including the AWS region and access credentials. Make sure to provide the necessary permissions to access the EC2 instances' metrics and data.
 7. Test the data source connection to ensure everything is set up correctly.
