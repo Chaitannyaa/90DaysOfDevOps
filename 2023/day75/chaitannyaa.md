@@ -6,15 +6,42 @@
 
 2. One Linux instance to serve as a Docker Engine.
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/8d31f781-cbca-4362-85f5-96a6a4c0c659)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/aaefa210-9904-4ab3-bf3a-9ed40cfceb59)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/399c48df-30df-4230-b2f2-bc9b18e293a6)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/497df76e-4c5a-4bc1-9a15-d4c3d4534f16)
+
 ## Let's get started--->
 
-- Install *Docker* and start docker service on a Linux EC2 through [USER DATA](https://github.com/LondheShubham153/90DaysOfDevOps/blob/0999394e87192863b5c190a90896249c31ce31af/2023/day39/tasks.md) .
+- Install *Docker* and start docker service on your Linux EC2 instance (Ubuntu 20.04 LTS).
 
-- Create 2 Docker containers and run any basic application on those containers (A simple todo app will work).
+```sh
+sudo apt install docker.io -y
+sudo usermod -aG docker $USER
+sudo reboot
+sudo systemctl enable docker
+sudo systemctl status docker
+```
 
-- Now intregrate the docker containers and share the real time logs with Grafana (Your Instance should be connected to Grafana and Docker plugin should be enabled on grafana).
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/bc852fde-914c-41b8-a9c6-0e1574f92cc8)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/38156016-56c2-4cdc-962d-6a6890b0b8b5)
+
+- Create 2 Docker containers and run any basic application on those containers.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/1a237307-6907-40cc-80e3-bd1bc7ad32d4)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/1f34691b-768d-49b1-bd9e-67db4f98e312)
+
+
+- Now intregrate the docker containers and share the real time logs with Grafana.
+
 
 - Check the logs or docker container name on Grafana UI.
+
 
 ## Happy Learning :)
 
