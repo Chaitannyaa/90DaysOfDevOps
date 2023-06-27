@@ -111,6 +111,8 @@ WantedBy=multi-user.target
 ```
 ------------------------------------
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/5d3dac7c-e441-422f-810e-7e4be6a10c7e)
+
 - Since, we have created a new unit file, we must reload the systemd daemon, set the service to always run at boot and start it :
 
 ```sh
@@ -180,6 +182,8 @@ scrape_configs:
 ```
 -------------------------------------
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/47dbc6c9-2306-4f37-946f-aa9a0a1e6694)
+
 In this file, we have defined a default scraping interval of 10 seconds. We have also define two sources of metrics, named prometheus_metrics and node_exporter_metrics. For both of them, we have set the scraping interval to 5 seconds, overriding the default. Then, we have specified the locations where these metrics will be available. Prometheus uses port 9090 and node_exporter uses port 9100 to provide their metrics.
 
 - Finally, we will also change the ownership of files that Prometheus will use:
@@ -211,6 +215,8 @@ ExecStart=/usr/local/bin/prometheus \
 WantedBy=multi-user.target
 ```
 -------------------------------------
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/a23682fb-61e9-4915-9782-976da95579f7)
 
 - Finally, we will reload systemd:
 
@@ -278,3 +284,4 @@ Remember, monitoring is a continuous process, and Grafana provides a powerful pl
 
 **Happy Learning and Happy Monitoring :)**
 
+# Day 74 task is complete!
