@@ -1,6 +1,12 @@
 # Day 75 - Sending Docker Log to Grafana
 
-## Task:
+## Pre requisites:
+
+1. [Grafana](https://90daysofdevopschallenge.hashnode.dev/day73-90daysofdevops-challenge-tws) server up and running with data source  [Prometheus](https://90daysofdevopschallenge.hashnode.dev/day74-90daysofdevops-challenge-tws) configured.
+
+2. One Linux instance to serve as a Docker Engine.
+
+## Let's get started--->
 
 - Install *Docker* and start docker service on a Linux EC2 through [USER DATA](https://github.com/LondheShubham153/90DaysOfDevOps/blob/0999394e87192863b5c190a90896249c31ce31af/2023/day39/tasks.md) .
 
