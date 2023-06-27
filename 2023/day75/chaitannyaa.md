@@ -36,6 +36,11 @@ sudo systemctl status docker
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/1f34691b-768d-49b1-bd9e-67db4f98e312)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/0a7d5961-2c2b-4f54-b8c3-b1a22cecba70)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/8e7e1aee-f034-4945-a749-5bbd4f1513f1)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/36e19d11-aeb4-472b-bc9b-7745dedf9343)
 
 - Now intregrate the docker containers and share the real time logs with Grafana.
 
