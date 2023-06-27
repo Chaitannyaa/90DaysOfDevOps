@@ -209,20 +209,30 @@ ExecStart=/usr/local/bin/prometheus \
 
 [Install]
 WantedBy=multi-user.target
-```sh
+```
 -------------------------------------
-
 
 - Finally, we will reload systemd:
 
+```sh
 sudo systemctl daemon-reload
 sudo systemctl enable prometheus
 sudo systemctl start prometheus
-Prometheus provides a web UI for running basic queries located at http://<your_server_IP>:9090/. This is how it looks like in a web browser:
+```
+
+- Prometheus provides a web UI for running basic queries located at http://<your_server_IP>:9090/. This is how it looks like in a web browser:
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/a43804cf-5d8a-46f8-b5ee-5b638817d5f1)
+
 6. Configure the data source settings, including the AWS region and access credentials. Make sure to provide the necessary permissions to access the EC2 instances' metrics and data.
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/809d9e42-6a39-4a76-9e14-eceaabc56b57)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/bdd7a229-9eb7-43b8-a8b5-f8ae1ca16c9b)
 
 7. Test the data source connection to ensure everything is set up correctly.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/ed0403ab-3c49-4f03-8f82-80125e66253a)
 
 Congratulations! You have successfully configured the data sources to connect with your EC2 instances. Now it's time to create dashboards and visualize the data.
 
@@ -231,16 +241,38 @@ Congratulations! You have successfully configured the data sources to connect wi
 Dashboards in Grafana are where you can design and visualize your data in a way that suits your monitoring needs. You can create multiple dashboards and customize them according to your preferences. Let's create a basic dashboard to monitor our EC2 instances.
 
 1. In the Grafana web interface, click on the "Create" button and select "Dashboard."
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/f069c303-2a41-4275-bea5-dcdaabc6000f)
+
 2. Choose the visualization type you want to use, such as graphs, tables, or charts.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7859393d-7abf-47d9-96c5-64ada3e9e05e)
+
+Before going further please check prometheus configuration for targets:
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/8ca5f166-ddda-4997-a16d-a61b1e955be5)
+
 3. Configure the metrics and data you want to monitor. You can select specific EC2 instance metrics, such as CPU usage, memory usage, disk utilization, and network traffic.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/16181c5c-bd7d-4ba4-bf2e-41186ad360aa)
+
 4. Customize the dashboard layout, add panels, and arrange them as needed.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/75a01591-4dae-4f81-927a-cccd314fed6c)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/0682745e-a25a-415a-9a00-5f136b54c421)
+
 5. Save the dashboard and give it a meaningful name.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/f9fe3395-ad6c-4493-bbad-f90e6b39b520)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3a566c4f-3dc6-4bcf-add3-a5d75284c896)
 
 Once you have created your dashboard, Grafana will start fetching data from your EC2 instances and display it in real-time. You can explore various visualization options and features provided by Grafana to enhance your monitoring experience.
 
-## Conclusion
+### You are done with it!
 
-Connecting EC2 instances with Grafana opens up a world of possibilities for monitoring and analyzing your server's performance. By following the steps outlined in this blog post, you can establish a seamless connection between your Linux and Windows EC2 instances and Grafana. This connection allows you to gain valuable insights into the different components of your servers, enabling you to make informed decisions and take necessary actions to optimize their performance.
+Connecting EC2 instances with Grafana opens up a world of possibilities for monitoring and analyzing your server's performance. By following the steps outlined in this blog post, you can establish a seamless connection between your Linux EC2 instances and Grafana. This connection allows you to gain valuable insights into the different components of your servers, enabling you to make informed decisions and take necessary actions to optimize their performance.
 
 Remember, monitoring is a continuous process, and Grafana provides a powerful platform to track your server's health and performance over time. Keep exploring Grafana's features, experiment with different metrics, and refine your dashboards to meet your specific requirements.
 
