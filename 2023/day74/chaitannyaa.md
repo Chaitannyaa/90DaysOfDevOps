@@ -52,6 +52,173 @@ Node Exporter collects these metrics by interacting with various operating syste
 
 **Let's install Prometheus on monitoring server where our Grafana is running and node exporter on both monitoring server and Targeted instance --->**
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/fda78410-978a-4d46-9848-082b2a757af0)
+
+**Install node_exporter--->**
+
+- First, we will download the Node Exporter on both machines :
+
+```sh
+wget https://github.com/prometheus/node_exporter/releases/download/v0.15.2/node_exporter-0.15.2.linux-amd64.tar.gz
+```
+
+- Extract the downloaded archive
+
+```sh
+tar -xf node_exporter-0.15.2.linux-amd64.tar.gz
+```
+
+- Move the node_exporter binary to /usr/local/bin:
+
+```sh
+sudo mv node_exporter-0.15.2.linux-amd64/node_exporter /usr/local/bin
+```
+
+- Remove the residual files with:
+
+```sh
+rm -r node_exporter-0.15.2.linux-amd64*
+```
+
+- Next, we need to create users and service files for node_exporter.
+
+For security reasons, it is always recommended to run any services/daemons in separate accounts of their own. Thus, we are going to create an user account for node_exporter. We have used the -r flag to indicate it is a system account, and set the default shell to /bin/false using -s to prevent logins.
+
+```sh
+sudo useradd -rs /bin/false node_exporter
+```
+
+Then, we will create a systemd unit file so that node_exporter can be started at boot. 
+
+```sh
+sudo nano /etc/systemd/system/node_exporter.service
+```
+
+-------------------------------------
+```sh
+[Unit]
+Description=Node Exporter
+After=network.target
+
+[Service]
+User=node_exporter
+Group=node_exporter
+Type=simple
+ExecStart=/usr/local/bin/node_exporter
+
+[Install]
+WantedBy=multi-user.target
+```
+------------------------------------
+
+- Since, we have created a new unit file, we must reload the systemd daemon, set the service to always run at boot and start it :
+
+```sh
+sudo systemctl daemon-reload
+sudo systemctl enable node_exporter
+sudo systemctl start node_exporter
+```
+
+**Installing Prometheus--->**
+
+- Download and install Prometheus only on the Prometheus Server.
+
+```sh
+wget https://github.com/prometheus/prometheus/releases/download/v2.1.0/prometheus-2.1.0.linux-amd64.tar.gz
+```
+
+- Extract the Prometheus archive :
+
+```sh
+tar -xf prometheus-2.1.0.linux-amd64.tar.gz
+```
+
+- Move the binaries to /usr/local/bin:
+
+```sh
+sudo mv prometheus-2.1.0.linux-amd64/prometheus prometheus-2.1.0.linux-amd64/promtool /usr/local/bin
+```
+
+- Now, we need to create directories for configuration files and other prometheus data.
+
+```sh
+sudo mkdir /etc/prometheus /var/lib/prometheus
+```
+
+- Then, we move the configuration files to the directory we made previously:
+
+```sh
+sudo mv prometheus-2.1.0.linux-amd64/consoles prometheus-2.1.0.linux-amd64/console_libraries /etc/prometheus
+```
+
+- Finally, we can delete the leftover files as we do not need them any more:
+
+```sh
+rm -r prometheus-2.1.0.linux-amd64*
+```
+
+**Configuring Prometheus--->**
+
+After having installed Prometheus, we have to configure Prometheus to let it know about the HTTP endpoints it should monitor. Prometheus uses the YAML format for its configuration.
+
+- We will use /etc/prometheus/prometheus.yml as our configuration file
+
+-------------------------------------
+```sh
+global:
+  scrape_interval: 10s
+
+scrape_configs:
+  - job_name: 'prometheus_metrics'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['localhost:9090']
+  - job_name: 'node_exporter_metrics'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['localhost:9100','prometheus-target-1:9100','prometheus-target-2:9100']
+```
+-------------------------------------
+
+In this file, we have defined a default scraping interval of 10 seconds. We have also define two sources of metrics, named prometheus_metrics and node_exporter_metrics. For both of them, we have set the scraping interval to 5 seconds, overriding the default. Then, we have specified the locations where these metrics will be available. Prometheus uses port 9090 and node_exporter uses port 9100 to provide their metrics.
+
+- Finally, we will also change the ownership of files that Prometheus will use:
+
+```sh
+sudo useradd -rs /bin/false prometheus
+sudo chown -R prometheus: /etc/prometheus /var/lib/prometheus
+```
+
+- Then, we will create a systemd unit file in /etc/systemd/system/prometheus.service with the following contents :
+
+-------------------------------------
+```sh
+[Unit]
+Description=Prometheus
+After=network.target
+
+[Service]
+User=prometheus
+Group=prometheus
+Type=simple
+ExecStart=/usr/local/bin/prometheus \
+    --config.file /etc/prometheus/prometheus.yml \
+    --storage.tsdb.path /var/lib/prometheus/ \
+    --web.console.templates=/etc/prometheus/consoles \
+    --web.console.libraries=/etc/prometheus/console_libraries
+
+[Install]
+WantedBy=multi-user.target
+```sh
+-------------------------------------
+
+
+- Finally, we will reload systemd:
+
+sudo systemctl daemon-reload
+sudo systemctl enable prometheus
+sudo systemctl start prometheus
+Prometheus provides a web UI for running basic queries located at http://<your_server_IP>:9090/. This is how it looks like in a web browser:
 6. Configure the data source settings, including the AWS region and access credentials. Make sure to provide the necessary permissions to access the EC2 instances' metrics and data.
 
 
