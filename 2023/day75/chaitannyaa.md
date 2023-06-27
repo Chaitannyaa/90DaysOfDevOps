@@ -16,7 +16,7 @@
 
 ## Let's get started--->
 
-- Install *Docker* and start docker service on your Linux EC2 instance (Ubuntu 20.04 LTS).
+- Install *Docker* and start docker service on your Linux EC2 instance (Ubuntu 20.04 LTS) and configure docker to send metrices to prometheus.
 
 ```sh
 sudo apt install docker.io -y
@@ -29,6 +29,16 @@ sudo systemctl status docker
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/bc852fde-914c-41b8-a9c6-0e1574f92cc8)
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/38156016-56c2-4cdc-962d-6a6890b0b8b5)
+
+**Create this file  "/etc/docker/daemon.json" and Add below contents**
+
+```sh
+{
+    "metrics-addr" : "0.0.0.0:9323",
+    "experimental" : true
+}
+```
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/a010d5cc-08b3-4330-af87-c80856b17ab5)
 
 - Create 2 Docker containers and run any basic application on those containers.
 
