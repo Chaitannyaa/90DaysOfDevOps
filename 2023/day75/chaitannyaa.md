@@ -45,9 +45,20 @@ sudo systemctl status docker
 - Now intregrate the docker containers and share the real time logs with Grafana.
 
 **Add your "Target machine details" to this prometheus configuration file**
+
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/b07547ef-522d-41cc-91d1-160c62b3e931)
 
+**Check your prometheus server's Target section for updates**
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e20e31f2-00d1-40a9-bb79-16b992ef1f8c)
+
+**Create dashboard for your Docker Engine to monitor containers**
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e4755c89-1615-4ca3-b4e3-d60839ea11ef)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/56495a25-8f11-4bf8-8e22-970553b8533c)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/1d048b9d-c292-413a-a072-7a9f4367b370)
 
 
 - Check the logs or docker container name on Grafana UI.
