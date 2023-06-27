@@ -56,11 +56,13 @@ sudo systemctl status docker
 
 **Add your "Target machine details" to this prometheus configuration file**
 
-![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/b07547ef-522d-41cc-91d1-160c62b3e931)
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/8eefc7be-6527-4d33-9599-9db8b0b2b8ac)
 
 **Check your prometheus server's Target section for updates**
 
-![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e20e31f2-00d1-40a9-bb79-16b992ef1f8c)
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/cad36c51-2f62-49bf-8578-287a1eb70f41)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/325f14b8-dbb5-4c19-9797-23890efdacbb)
 
 **Create dashboard for your Docker Engine to monitor containers**
 
@@ -70,6 +72,15 @@ sudo systemctl status docker
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/1d048b9d-c292-413a-a072-7a9f4367b370)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/4c879b95-a8c1-4bb4-ac5e-ac4b7d310428)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3b9e26bb-7509-48c2-a9ca-8fb366f9af82)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/c89de110-7c80-4565-8f94-1cd6ff8a8856)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/6896a518-4ecf-4a6a-b144-f4cc1bbb0572)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7c4de615-a259-40a6-ba1a-30308abf663b)
 
 - Check the logs or docker container name on Grafana UI.
 
