@@ -123,6 +123,12 @@ scrape_configs:
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/95e26221-a9c3-4d57-a294-3e60cd1f14bf)
 
+**Check prometheus targets updated with cadvisor**
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3bade320-19bf-4c9a-9e95-207d72690175)
+
+**Now let's build our dashboard to see running container names--->**
+
 
 ## Happy Learning :)
 
