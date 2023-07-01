@@ -129,6 +129,22 @@ scrape_configs:
 
 **Now let's build our dashboard to see running container names--->**
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/95a80c06-1076-4097-bb2b-974539c8d618)
+
+### Create a new panel and use "container_tasks_state" metrics
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/1da271c3-3b4e-46be-a76f-0b5d1a358e0b)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/6df8ca75-837c-4e5a-8d2f-cbf4ed3df50f)
+
+**Give proper visualization to the table with some background colour**
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/086d11d3-ba7c-4881-9662-804202634374)
+
+**Add some metrics check for Prometheus Server and Docker host server memory ustilization**
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/b32f194d-7940-4a17-8386-e7d38322968e)
+
 
 ## Happy Learning :)
 
