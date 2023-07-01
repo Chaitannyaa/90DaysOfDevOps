@@ -147,6 +147,7 @@ scrape_configs:
 
 ### Arrange layout of dashboard as per your ease to monitor--->
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/eac94ab7-bcec-489a-b1c2-53bff2fca8ea)
 
 ## Happy Learning :)
 
