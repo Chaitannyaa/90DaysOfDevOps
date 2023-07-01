@@ -82,7 +82,46 @@ sudo systemctl status docker
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/7c4de615-a259-40a6-ba1a-30308abf663b)
 
-- Check the logs or docker container name on Grafana UI.
+## Check the logs or docker container name on Grafana UI.
+
+To retrive more detailed docker container logs you need another exporter like **cadvisor** to send data to prometheus
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/d45ebc4d-9c74-4f56-840c-94492feeb1ec)
+
+**Let's install **cadvisor** first on your target servers--->**
+
+```sh
+sudo apt install cadvisor
+```
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/66ef87e0-5aff-4a88-8340-3b58a85af834)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/f7f03cfc-e264-46b0-a25c-62776190fb9c)
+
+**Configure your Prometheus to scrap data from cadvisor's metrics--->**
+
+```sh
+sudo vim /etc/prometheus/prometheus.yml
+```
+
+**Add below data in above prometheus.yml file**
+
+```sh
+global:
+  scrape_interval: 10s
+
+scrape_configs:
+  - job_name: 'prometheus_metrics'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['3.237.177.101:9090']
+
+  - job_name: 'Cadvisor'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['44.211.96.219:8080']
+```
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/95e26221-a9c3-4d57-a294-3e60cd1f14bf)
 
 
 ## Happy Learning :)
