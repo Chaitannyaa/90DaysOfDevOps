@@ -44,7 +44,7 @@ Grafana Alerting is available for Grafana OSS, Grafana Enterprise, or Grafana Cl
 
 **You  must configure your grafana server for SMTP section of **
 
-Locate the `grafana.ini` configuration file. By default, it is found in the `/etc/grafana` directory on Linux systems or the installation directory on Windows.
+### Locate the `grafana.ini` configuration file. By default, it is found in the `/etc/grafana` directory on Linux systems or the installation directory on Windows.
 
 ```sh
 [smtp]
