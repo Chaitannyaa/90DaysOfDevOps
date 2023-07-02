@@ -42,6 +42,19 @@ Grafana Alerting is available for Grafana OSS, Grafana Enterprise, or Grafana Cl
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/91527ad2-2aae-4432-a24f-e252d2f1ebcc)
 
+**You  must configure your grafana server for SMTP section of **
+
+Locate the `grafana.ini` configuration file. By default, it is found in the `/etc/grafana` directory on Linux systems or the installation directory on Windows.
+
+```sh
+[smtp]
+enabled = true
+host = smtp.example.com:25
+user = your_email@example.com
+password = your_email_password
+```
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/f100d95f-a471-4067-b5ac-c3444edb9e56)
+
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/48c80e32-3671-43d3-834b-3b9ca78fba98)
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/59c29f1f-5f80-49d0-b0ec-4b2abefc56c1)
@@ -58,7 +71,9 @@ Grafana Alerting is available for Grafana OSS, Grafana Enterprise, or Grafana Cl
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/cf8db6a3-51c6-4da8-ae83-9675d36c75c7)
 
+That's how you get alerts on your email!
 
+# Day77 task is complete!
 
 
 
