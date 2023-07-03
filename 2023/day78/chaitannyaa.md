@@ -71,13 +71,31 @@ Day - 78 : Create Grafana Alerting for An AWS EC2 instance and Your AWS account 
       - Network Out (Bytes): Monitors the outgoing network traffic in bytes.
       - Status Check Failed: Monitors if the EC2 instance's status checks are failing.
 
-     Select the appropriate metric(s) based on your monitoring requirements. You can add multiple conditions by clicking on "Add condition" again.
+   ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/c9686b1c-13c0-4539-8b24-e94df6da8814)
 
-   c. Set the conditions for triggering the alert. For example, you can set a threshold for CPU Utilization to trigger the alert when it exceeds 60% for a duration of 5 minutes. Adjust the thresholds and durations based on your specific needs.
+   ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/0845e1f5-f5d1-4d70-a88f-1703685d80c8)
+
+   ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/f04b9d92-2d54-4bb1-a96b-1f994907ddbe)
+
+   ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/781d8784-4659-4ac7-9024-660bad465db2)
+
+   ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/31c1228e-c5e0-4cdc-9cd2-8c9333d9496f)
+
+   ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/81019f60-1dc1-4036-8870-4d374ce3fe0c)
+
+   Select the appropriate metric(s) based on your monitoring requirements. You can add multiple conditions by clicking on "Add condition" again.
 
    d. Specify the notification channel you added earlier to receive the alerts. Select the appropriate channel from the "Send to" dropdown menu.
 
-7. Save the alert rule, and Grafana will start monitoring the selected EC2 instance based on your defined conditions and send alerts to the configured notification channel when triggered.
+   ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/57f7993b-4cab-481c-8486-5dcd6e959f63)
+
+6. Grafana will start monitoring the selected EC2 instance based on your defined conditions and send alerts to the configured notification channel when triggered.
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e76b9dd8-3cba-4182-a3ce-2bb67ab51b43)
+
+## Have you received any alert on slack channel? Let's check--->
+
+
 
 ## Setup alerts for AWS Billing Alerts.
 
