@@ -93,9 +93,19 @@ Day - 78 : Create Grafana Alerting for An AWS EC2 instance and Your AWS account 
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e76b9dd8-3cba-4182-a3ce-2bb67ab51b43)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/b7940d78-b129-4e10-afca-04693f65f7a8)
+
 ## Have you received any alert on slack channel? Let's check--->
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/3c1a853d-c041-4684-9607-c578792a79cb)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/e4e68ca2-cb1c-4472-be32-ce3a42d1b0c3)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/a8d2ae02-6776-40db-bfc0-94bdca485562)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/b978aac3-1de0-404b-b65a-8e3bbc384072)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/41ccd78d-52e3-46d3-b1ea-89fa532dad41)
 
 ## Setup alerts for AWS Billing Alerts.
 
