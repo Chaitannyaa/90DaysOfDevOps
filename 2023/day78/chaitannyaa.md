@@ -107,7 +107,7 @@ Day - 78 : Create Grafana Alerting for An AWS EC2 instance and Your AWS account 
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/41ccd78d-52e3-46d3-b1ea-89fa532dad41)
 
-## Setup alerts for AWS Billing Alerts.
+## Setup Grafana for AWS Billing Alerts using CloudWatch as Data source.
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/a83df5da-1ba7-413a-bc66-09324a03b11d)
 
@@ -151,5 +151,10 @@ Day - 78 : Create Grafana Alerting for An AWS EC2 instance and Your AWS account 
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/24123c00-5a9f-4ce9-87ad-eb67152db524)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/08394938-c84c-446f-97fd-ab72f159224f)
 
-For Reference: https://www.linkedin.com/posts/chetanrakhra_devops-project-share-activity-7044695663913148416-LfvD?utm_source=share&utm_medium=member_desktop
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/113e770a-b6ce-4095-ad3b-14c2ce70b06d)
+
+### Happy Learning!
+
+# Day 78 task is complete!
