@@ -129,5 +129,12 @@ Day - 78 : Create Grafana Alerting for An AWS EC2 instance and Your AWS account 
 
 ![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/f962cbcc-f545-42ed-8d85-e6a299a57c8e)
 
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/88d67f5b-0a55-48c0-898a-f44b72535418)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/d4e8ca33-d26a-491f-b89b-d46c3be917f8)
+
+![image](https://github.com/Chaitannyaa/90DaysOfDevOps/assets/117350787/315a2d7d-1ec9-46d4-943c-339b30270135)
+
+
 
 For Reference: https://www.linkedin.com/posts/chetanrakhra_devops-project-share-activity-7044695663913148416-LfvD?utm_source=share&utm_medium=member_desktop
